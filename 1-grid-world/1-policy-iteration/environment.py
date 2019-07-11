@@ -14,7 +14,7 @@ ACTIONS = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # 좌표로 나타낸 행동
 REWARDS = []
 
 
-class GraphicDisplay(tk.Tk):#1111111111111111111111111111111111111111111111111111
+class GraphicDisplay(tk.Tk):#11111111111111111111111111155251111111111111111111111111
     def __init__(self, agent):
         super(GraphicDisplay, self).__init__()
         self.title('Policy Iteration')
